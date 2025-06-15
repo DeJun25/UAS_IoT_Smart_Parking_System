@@ -19,11 +19,7 @@ const long ambangBatasi = 10;          // Ambang jarak dalam cm
 bool slotStatus[3];                    // Status 3 slot
 
 // RFID yang diizinkan
-String allowedTags[] = {
-  "21ED352",
-  "A2DB01B",
-  "2D1CE1"
-};
+String allowedTags[] = {};
 
 // Servo
 Servo palang;
